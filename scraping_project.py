@@ -313,7 +313,7 @@ def write_csv():
     csv_writer.writerow(['Movie Title and Release Year', 'Tomatometer Score', 'Audience Score', 'Worldwide Box Office Earnings', 'Production Budget for Film'])
 
     #-- Write data to CSV
-    csv_writer.writerow(export_data)
+    csv_writer.writerows(export_data)
 
     output_file.close()
 
